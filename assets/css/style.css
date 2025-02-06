@@ -1,0 +1,263 @@
+.card1 {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  /* Ensures the shadow does not spill outside rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth hover effect */
+}
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  --bs-gutter-x: 0 !important;
+}
+
+.active {
+  color: rgb(8, 142, 245) !important;
+}
+
+.card2 {
+  background-color: #0ea2dc;
+  width: 80%;
+  margin-left: 10%;
+  height: 70%;
+  border: 6px solid #dbdad5;
+  border-radius: 20px;
+}
+
+#live_heading {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card3 {
+  background-color: #0ea2dc;
+  width: 80%;
+  margin-left: 10%;
+  height: 23%;
+  border: 6px solid #dbdad5;
+  border-radius: 20px;
+}
+
+#edit-btn {
+  background-color: rgb(69, 215, 69);
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  width: 32px;
+  margin-top: -39px;
+  margin-left: 20px;
+}
+
+.card4 {
+  background-color: #0ea2dc;
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  border: 6px solid #dbdad5;
+  border-radius: 20px;
+  color: white;
+}
+
+#card1 {
+  width: 70%;
+  margin-left: 15%;
+  height: 30%;
+  margin-top: 30%;
+  background-color: #f3dfbf;
+}
+
+#time {
+  background-color: #efa00b;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+#btn1 {
+  margin-top: 10%;
+}
+
+.card5 {
+  background-color: #3b60e4;
+  border-radius: 15px;
+  width: 80%;
+  margin-left: 10%;
+  height: 20%;
+  padding-top: 17%;
+  color: white;
+}
+
+/* Swiper container and general layout */
+.swiper-container {
+  width: 100%;
+  height: 300px; /* Adjust the height of the swiper */
+  margin: 0 auto;
+}
+
+/* Swiper slides */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b60e4; /* Background color */
+}
+
+/* Card styling */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 150px; /* Adjust width of the card */
+  text-align: center;
+}
+
+/* Center the content inside the card */
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Styling for the numbers */
+.number {
+  font-size: 40px; /* Larger font size for the numbers */
+  font-weight: bold;
+  color: #3b60e4; /* Color of the number text */
+}
+
+/* SWIPER */
+
+.swiper {
+  width: 250px;
+  height: 450px;
+  padding: 50px 0;
+}
+
+.swiper-slide {
+  position: relative;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  user-select: none;
+}
+
+.swiper-slide img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#swiper_content {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.swiper-cards .swiper-slide {
+  height: 400px !important;
+}
+
+.play_btn {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: 10%;
+}
+
+
+  /* digit */
+
+  .lottery-container {
+    display: flex;
+    gap: 8px;
+    margin-left: -8px;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    margin-top: -10px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+}
+.lottery-card {
+    background: linear-gradient(to bottom, #ffc107, #ff9800);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    width: 300px;
+    height: 160px;
+    position: relative;
+}
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#lottery1 img {
+  width: 60px;
+   height: 30px;
+   margin-left: 50px;
+}
+.win-prize {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 30px;
+    /* margin: 5px 0; */
+}
+.price {
+    font-size: 12px;
+    color: #fff;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 100px;
+    margin-top: -28px;
+    /* margin: 5px 0; */
+}
+.time-box {
+    width: 40px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+.play-button {
+    background-color: white;
+    border: none;
+    /* padding: 8px 15px; */
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+@media (max-width: 600px) {
+    .lottery-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+#lottery1 img {
+  width: 50px; 
+  height: 30px;
+  margin-left: 55px;
+  margin-top: 5px;
+}
+}
